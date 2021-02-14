@@ -14,7 +14,7 @@ $(document).ready(function () {
       removeItemFromArr(listCheck, string);
     }
     $('#h4_amenities').text(listCheck);
-  });}
+  });
   // in vagrant is with localhost instead 0.0.0.0
   $.getJSON('http://localhost:5001/api/v1/status/', function (data) {
     if (data.status === 'OK') {
