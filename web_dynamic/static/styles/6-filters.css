@@ -18,6 +18,15 @@ button {
     top: 15%;
     right: 30px;
 }
+#h4_amenities {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 1.2em;
+}
+.checkbox_amenities {
+    margin-left: 10px;
+}
 button:hover {
     opacity: 0.9;
 }
